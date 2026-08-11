@@ -1,0 +1,16 @@
+Feature
+Year
+Prev_Population
+Population_Lag_2
+Population_Lag_3
+Population_MA3
+Birth_Rate_Lag_1
+Death_Rate_Lag_1
+Fertility_Rate_Lag_1
+Life_Expectancy_Lag_1
+GDP_Growth_Lag_1
+Net_Migration_Lag_1
+Literacy_Rate_Lag_1
+Urban_Population_Lag_1
+Infant_Mortality_Lag_1
+Population_Density_Lag_1

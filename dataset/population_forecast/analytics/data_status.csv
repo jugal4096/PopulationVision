@@ -1,0 +1,4 @@
+Source_Type,Start_Year,End_Year,Rows,Data_Status,Source
+Estimated,2025,2025,1,Model Estimated,Population forecasting model
+Forecast,2026,2050,25,ML Forecast,Population forecasting model
+Historical,1960,2024,65,Official,Official WDI dataset

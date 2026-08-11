@@ -1,0 +1,214 @@
+{
+    "project": "India Population Forecasting",
+    "analytics_engine": "National Demographic Analytics Engine",
+    "coverage": {
+        "official_historical": "1960-2024",
+        "model_estimated": "2025",
+        "ml_forecast": "2026-2050"
+    },
+    "data_policy": {
+        "official_data_modified": false,
+        "official_historical_cutoff": 2024,
+        "estimated_2025_is_official": false,
+        "forecast_values_modified": false,
+        "model_retrained": false
+    },
+    "period_analysis": [
+        {
+            "Period": "10-Year",
+            "Requested_Start_Year": 2040,
+            "Requested_End_Year": 2050,
+            "Available_Start_Year": 2040,
+            "Available_End_Year": 2050,
+            "Requested_Years": 11,
+            "Available_Years": 11,
+            "Availability_Status": "Complete",
+            "Period_Type": "Forecast",
+            "Source_Types": "Forecast",
+            "Start_Population": 1595991026,
+            "End_Population": 1630192583,
+            "Absolute_Change": 34201557,
+            "Percentage_Change": 2.143,
+            "CAGR_Percent": 0.2123,
+            "Average_Annual_Change": 3420156,
+            "Fastest_Growth_Year": 2040,
+            "Fastest_Growth_Rate": 0.376,
+            "Slowest_Growth_Year": 2050,
+            "Slowest_Growth_Rate": 0.0752
+        },
+        {
+            "Period": "20-Year",
+            "Requested_Start_Year": 2030,
+            "Requested_End_Year": 2050,
+            "Available_Start_Year": 2030,
+            "Available_End_Year": 2050,
+            "Requested_Years": 21,
+            "Available_Years": 21,
+            "Availability_Status": "Complete",
+            "Period_Type": "Forecast",
+            "Source_Types": "Forecast",
+            "Start_Population": 1517181986,
+            "End_Population": 1630192583,
+            "Absolute_Change": 113010597,
+            "Percentage_Change": 7.4487,
+            "CAGR_Percent": 0.3599,
+            "Average_Annual_Change": 5650530,
+            "Fastest_Growth_Year": 2030,
+            "Fastest_Growth_Rate": 0.6701,
+            "Slowest_Growth_Year": 2050,
+            "Slowest_Growth_Rate": 0.0752
+        },
+        {
+            "Period": "25-Year",
+            "Requested_Start_Year": 2025,
+            "Requested_End_Year": 2050,
+            "Available_Start_Year": 2025,
+            "Available_End_Year": 2050,
+            "Requested_Years": 26,
+            "Available_Years": 26,
+            "Availability_Status": "Complete",
+            "Period_Type": "Mixed",
+            "Source_Types": "Estimated, Forecast",
+            "Start_Population": 1462982757,
+            "End_Population": 1630192583,
+            "Absolute_Change": 167209826,
+            "Percentage_Change": 11.4294,
+            "CAGR_Percent": 0.4338,
+            "Average_Annual_Change": 6688393,
+            "Fastest_Growth_Year": 2025,
+            "Fastest_Growth_Rate": 0.8303,
+            "Slowest_Growth_Year": 2050,
+            "Slowest_Growth_Rate": 0.0752
+        },
+        {
+            "Period": "50-Year",
+            "Requested_Start_Year": 2000,
+            "Requested_End_Year": 2050,
+            "Available_Start_Year": 2000,
+            "Available_End_Year": 2050,
+            "Requested_Years": 51,
+            "Available_Years": 51,
+            "Availability_Status": "Complete",
+            "Period_Type": "Mixed",
+            "Source_Types": "Estimated, Forecast, Historical",
+            "Start_Population": 1057922733,
+            "End_Population": 1630192583,
+            "Absolute_Change": 572269850,
+            "Percentage_Change": 54.0937,
+            "CAGR_Percent": 0.8685,
+            "Average_Annual_Change": 11445397,
+            "Fastest_Growth_Year": 2000,
+            "Fastest_Growth_Rate": 1.8972,
+            "Slowest_Growth_Year": 2050,
+            "Slowest_Growth_Rate": 0.0752
+        },
+        {
+            "Period": "100-Year",
+            "Requested_Start_Year": 1950,
+            "Requested_End_Year": 2050,
+            "Available_Start_Year": 1960,
+            "Available_End_Year": 2050,
+            "Requested_Years": 101,
+            "Available_Years": 91,
+            "Availability_Status": "Partial - available data used",
+            "Period_Type": "Mixed",
+            "Source_Types": "Estimated, Forecast, Historical",
+            "Start_Population": 435990338,
+            "End_Population": 1630192583,
+            "Absolute_Change": 1194202245,
+            "Percentage_Change": 273.9057,
+            "CAGR_Percent": 1.4762,
+            "Average_Annual_Change": 13268914,
+            "Fastest_Growth_Year": 1961,
+            "Fastest_Growth_Rate": 2.4254,
+            "Slowest_Growth_Year": 2050,
+            "Slowest_Growth_Rate": 0.0752
+        }
+    ],
+    "data_status": [
+        {
+            "Source_Type": "Estimated",
+            "Start_Year": 2025,
+            "End_Year": 2025,
+            "Rows": 1,
+            "Data_Status": "Model Estimated",
+            "Source": "Population forecasting model"
+        },
+        {
+            "Source_Type": "Forecast",
+            "Start_Year": 2026,
+            "End_Year": 2050,
+            "Rows": 25,
+            "Data_Status": "ML Forecast",
+            "Source": "Population forecasting model"
+        },
+        {
+            "Source_Type": "Historical",
+            "Start_Year": 1960,
+            "End_Year": 2024,
+            "Rows": 65,
+            "Data_Status": "Official",
+            "Source": "Official WDI dataset"
+        }
+    ],
+    "future_milestones": [
+        {
+            "Population_Milestone": 1500000000,
+            "Estimated_Year": 2029.0,
+            "Status": "Projected"
+        },
+        {
+            "Population_Milestone": 1550000000,
+            "Estimated_Year": 2034.0,
+            "Status": "Projected"
+        },
+        {
+            "Population_Milestone": 1600000000,
+            "Estimated_Year": 2041.0,
+            "Status": "Projected"
+        },
+        {
+            "Population_Milestone": 1650000000,
+            "Estimated_Year": NaN,
+            "Status": "Not reached by 2050"
+        },
+        {
+            "Population_Milestone": 1700000000,
+            "Estimated_Year": NaN,
+            "Status": "Not reached by 2050"
+        },
+        {
+            "Population_Milestone": 1750000000,
+            "Estimated_Year": NaN,
+            "Status": "Not reached by 2050"
+        },
+        {
+            "Population_Milestone": 1800000000,
+            "Estimated_Year": NaN,
+            "Status": "Not reached by 2050"
+        },
+        {
+            "Population_Milestone": 1850000000,
+            "Estimated_Year": NaN,
+            "Status": "Not reached by 2050"
+        },
+        {
+            "Population_Milestone": 1900000000,
+            "Estimated_Year": NaN,
+            "Status": "Not reached by 2050"
+        },
+        {
+            "Population_Milestone": 2000000000,
+            "Estimated_Year": NaN,
+            "Status": "Not reached by 2050"
+        }
+    ],
+    "insights": {
+        "historical_trend": "Official population increased from 435,990,338 in 1960 to 1,450,935,791 in 2024, representing an increase of 232.79%.",
+        "estimated_2025": "The forecasting model estimates India's 2025 population at approximately 1,462,982,757. This is a model estimate and is not treated as an official historical observation.",
+        "forecast_trend": "The model projects India's population to change by approximately 10.56% between 2026 and 2050.",
+        "growth_dynamics": "Projected annual population growth declines from approximately 0.790% in 2026 to 0.075% by 2050.",
+        "2050_projection": "The current model projects India's population at approximately 1,630,192,583 by 2050.",
+        "growth_rate_reduction": "The projected annual growth rate declines by approximately 0.715 percentage points between 2026 and 2050."
+    }
+}

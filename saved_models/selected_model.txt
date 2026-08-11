@@ -1,0 +1,6 @@
+Model: Linear Regression
+Target: Population_Diff
+Features: 15
+Forecast Horizon: 2026-2050
+Chronological validation: Yes
+Population leakage features: Excluded from model inputs

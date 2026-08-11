@@ -1,0 +1,11 @@
+Milestone_Type,Threshold,Year,Population,Source_Type,Description
+Growth Rate Threshold,1.0,2026,1474539165.2701452,Forecast,Projected annual population growth falls to 1.00% or below in 2026. Actual projected rate: 0.7899%.
+Highest Forecast Growth,0.7899210063190054,2026,1474539165.2701452,Forecast,The highest projected annual population growth occurs in 2026 at approximately 0.7899%.
+Growth Rate Threshold,0.75,2028,1496603153.632913,Forecast,Projected annual population growth falls to 0.75% or below in 2028. Actual projected rate: 0.7306%.
+Population Threshold,1500000000.0,2029,1507083391.8837166,Forecast,"India's population reaches or exceeds 1,500,000,000 in 2029."
+Population Threshold,1550000000.0,2034,1553659299.4483306,Forecast,"India's population reaches or exceeds 1,550,000,000 in 2034."
+Growth Rate Threshold,0.5,2036,1569468545.4949172,Forecast,Projected annual population growth falls to 0.50% or below in 2036. Actual projected rate: 0.4929%.
+Population Threshold,1600000000.0,2041,1601524020.3093412,Forecast,"India's population reaches or exceeds 1,600,000,000 in 2041."
+Growth Rate Threshold,0.25,2045,1619073150.7060657,Forecast,Projected annual population growth falls to 0.25% or below in 2045. Actual projected rate: 0.2282%.
+Growth Rate Threshold,0.1,2050,1630192583.2725654,Forecast,Projected annual population growth falls to 0.10% or below in 2050. Actual projected rate: 0.0752%.
+Lowest Forecast Growth,0.07521650963560056,2050,1630192583.2725654,Forecast,The lowest projected annual population growth occurs in 2050 at approximately 0.0752%.

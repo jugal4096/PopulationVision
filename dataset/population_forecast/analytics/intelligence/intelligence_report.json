@@ -1,0 +1,164 @@
+{
+    "application": "AI Population Forecasting",
+    "module": "National Demographic Intelligence Engine",
+    "version": "1.0",
+    "coverage": {
+        "start_year": 1960,
+        "end_year": 2050,
+        "historical_end_year": 2024,
+        "estimated_year": 2025,
+        "forecast_start_year": 2026,
+        "forecast_end_year": 2050
+    },
+    "data_policy": {
+        "historical": "Official WDI observations",
+        "estimated_2025": "Model-generated estimate",
+        "forecast_2026_2050": "ML-generated forecast",
+        "official_data_modified": false,
+        "model_retrained": false,
+        "forecast_values_modified": false
+    },
+    "source_files": {
+        "feature_dataset": "c:\\Users\\jugal\\OneDrive\\Desktop\\App\\.idea\\AI-Population-Forecasting\\dataset\\india_features_dataset.csv",
+        "population_analytics": "c:\\Users\\jugal\\OneDrive\\Desktop\\App\\.idea\\AI-Population-Forecasting\\dataset\\population_forecast\\analytics\\population_analytics.csv",
+        "data_status": "c:\\Users\\jugal\\OneDrive\\Desktop\\App\\.idea\\AI-Population-Forecasting\\dataset\\population_forecast\\analytics\\data_status.csv",
+        "forecast_dataset": "c:\\Users\\jugal\\OneDrive\\Desktop\\App\\.idea\\AI-Population-Forecasting\\dataset\\population_forecast\\population_forecast_2026_2050.csv"
+    },
+    "statistics": {
+        "total_years": 91,
+        "historical_years": 65,
+        "estimated_years": 1,
+        "forecast_years": 25,
+        "year_insights": 91,
+        "milestones": 10,
+        "research_insights": 6
+    },
+    "population_range": {
+        "first_year": 1960,
+        "first_population": 435990338.0,
+        "last_year": 2050,
+        "last_population": 1630192583.2725654
+    },
+    "research_insights": [
+        {
+            "type": "historical_trend",
+            "title": "Historical Population Trend",
+            "insight": "Official population increased from 435,990,338 in 1960 to 1,450,935,791 in 2024, representing an increase of 232.79%."
+        },
+        {
+            "type": "estimated_2025",
+            "title": "2025 Model Estimate",
+            "insight": "The forecasting model estimates India's 2025 population at approximately 1,462,982,757. This value is a model estimate and is not treated as an official historical observation."
+        },
+        {
+            "type": "forecast_trend",
+            "title": "Forecast Population Trend",
+            "insight": "The ML model projects India's population to change by approximately 10.56% between 2026 and 2050."
+        },
+        {
+            "type": "growth_dynamics",
+            "title": "Population Growth Dynamics",
+            "insight": "Projected annual population growth declines from approximately 0.790% in 2026 to 0.075% by 2050."
+        },
+        {
+            "type": "growth_rate_reduction",
+            "title": "Growth Rate Reduction",
+            "insight": "The projected annual growth rate declines by approximately 0.715 percentage points between 2026 and 2050."
+        },
+        {
+            "type": "2050_projection",
+            "title": "2050 Population Projection",
+            "insight": "The current ML forecasting pipeline projects India's population at approximately 1,630,192,583 by 2050."
+        }
+    ],
+    "milestones": [
+        {
+            "Milestone_Type": "Growth Rate Threshold",
+            "Threshold": 1.0,
+            "Year": 2026,
+            "Population": 1474539165.2701452,
+            "Source_Type": "Forecast",
+            "Description": "Projected annual population growth falls to 1.00% or below in 2026. Actual projected rate: 0.7899%."
+        },
+        {
+            "Milestone_Type": "Highest Forecast Growth",
+            "Threshold": 0.7899210063190054,
+            "Year": 2026,
+            "Population": 1474539165.2701452,
+            "Source_Type": "Forecast",
+            "Description": "The highest projected annual population growth occurs in 2026 at approximately 0.7899%."
+        },
+        {
+            "Milestone_Type": "Growth Rate Threshold",
+            "Threshold": 0.75,
+            "Year": 2028,
+            "Population": 1496603153.632913,
+            "Source_Type": "Forecast",
+            "Description": "Projected annual population growth falls to 0.75% or below in 2028. Actual projected rate: 0.7306%."
+        },
+        {
+            "Milestone_Type": "Population Threshold",
+            "Threshold": 1500000000.0,
+            "Year": 2029,
+            "Population": 1507083391.8837166,
+            "Source_Type": "Forecast",
+            "Description": "India's population reaches or exceeds 1,500,000,000 in 2029."
+        },
+        {
+            "Milestone_Type": "Population Threshold",
+            "Threshold": 1550000000.0,
+            "Year": 2034,
+            "Population": 1553659299.4483306,
+            "Source_Type": "Forecast",
+            "Description": "India's population reaches or exceeds 1,550,000,000 in 2034."
+        },
+        {
+            "Milestone_Type": "Growth Rate Threshold",
+            "Threshold": 0.5,
+            "Year": 2036,
+            "Population": 1569468545.4949172,
+            "Source_Type": "Forecast",
+            "Description": "Projected annual population growth falls to 0.50% or below in 2036. Actual projected rate: 0.4929%."
+        },
+        {
+            "Milestone_Type": "Population Threshold",
+            "Threshold": 1600000000.0,
+            "Year": 2041,
+            "Population": 1601524020.3093412,
+            "Source_Type": "Forecast",
+            "Description": "India's population reaches or exceeds 1,600,000,000 in 2041."
+        },
+        {
+            "Milestone_Type": "Growth Rate Threshold",
+            "Threshold": 0.25,
+            "Year": 2045,
+            "Population": 1619073150.7060657,
+            "Source_Type": "Forecast",
+            "Description": "Projected annual population growth falls to 0.25% or below in 2045. Actual projected rate: 0.2282%."
+        },
+        {
+            "Milestone_Type": "Growth Rate Threshold",
+            "Threshold": 0.1,
+            "Year": 2050,
+            "Population": 1630192583.2725654,
+            "Source_Type": "Forecast",
+            "Description": "Projected annual population growth falls to 0.10% or below in 2050. Actual projected rate: 0.0752%."
+        },
+        {
+            "Milestone_Type": "Lowest Forecast Growth",
+            "Threshold": 0.07521650963560056,
+            "Year": 2050,
+            "Population": 1630192583.2725654,
+            "Source_Type": "Forecast",
+            "Description": "The lowest projected annual population growth occurs in 2050 at approximately 0.0752%."
+        }
+    ],
+    "generated_files": {
+        "unified_dataset": "c:\\Users\\jugal\\OneDrive\\Desktop\\App\\.idea\\AI-Population-Forecasting\\dataset\\population_forecast\\analytics\\intelligence\\unified_population_dataset.csv",
+        "year_insights": "c:\\Users\\jugal\\OneDrive\\Desktop\\App\\.idea\\AI-Population-Forecasting\\dataset\\population_forecast\\analytics\\intelligence\\year_insights.csv",
+        "growth_analysis": "c:\\Users\\jugal\\OneDrive\\Desktop\\App\\.idea\\AI-Population-Forecasting\\dataset\\population_forecast\\analytics\\intelligence\\growth_analysis.csv",
+        "milestones": "c:\\Users\\jugal\\OneDrive\\Desktop\\App\\.idea\\AI-Population-Forecasting\\dataset\\population_forecast\\analytics\\intelligence\\detected_milestones.csv",
+        "research_insights": "c:\\Users\\jugal\\OneDrive\\Desktop\\App\\.idea\\AI-Population-Forecasting\\dataset\\population_forecast\\analytics\\intelligence\\research_insights.json",
+        "intelligence_report": "c:\\Users\\jugal\\OneDrive\\Desktop\\App\\.idea\\AI-Population-Forecasting\\dataset\\population_forecast\\analytics\\intelligence\\intelligence_report.json"
+    }
+}

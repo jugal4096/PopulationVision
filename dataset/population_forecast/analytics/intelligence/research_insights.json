@@ -1,0 +1,32 @@
+[
+    {
+        "type": "historical_trend",
+        "title": "Historical Population Trend",
+        "insight": "Official population increased from 435,990,338 in 1960 to 1,450,935,791 in 2024, representing an increase of 232.79%."
+    },
+    {
+        "type": "estimated_2025",
+        "title": "2025 Model Estimate",
+        "insight": "The forecasting model estimates India's 2025 population at approximately 1,462,982,757. This value is a model estimate and is not treated as an official historical observation."
+    },
+    {
+        "type": "forecast_trend",
+        "title": "Forecast Population Trend",
+        "insight": "The ML model projects India's population to change by approximately 10.56% between 2026 and 2050."
+    },
+    {
+        "type": "growth_dynamics",
+        "title": "Population Growth Dynamics",
+        "insight": "Projected annual population growth declines from approximately 0.790% in 2026 to 0.075% by 2050."
+    },
+    {
+        "type": "growth_rate_reduction",
+        "title": "Growth Rate Reduction",
+        "insight": "The projected annual growth rate declines by approximately 0.715 percentage points between 2026 and 2050."
+    },
+    {
+        "type": "2050_projection",
+        "title": "2050 Population Projection",
+        "insight": "The current ML forecasting pipeline projects India's population at approximately 1,630,192,583 by 2050."
+    }
+]

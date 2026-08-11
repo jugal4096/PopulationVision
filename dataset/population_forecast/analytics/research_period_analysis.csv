@@ -1,0 +1,6 @@
+Period,Requested_Start_Year,Requested_End_Year,Available_Start_Year,Available_End_Year,Requested_Years,Available_Years,Availability_Status,Period_Type,Source_Types,Start_Population,End_Population,Absolute_Change,Percentage_Change,CAGR_Percent,Average_Annual_Change,Fastest_Growth_Year,Fastest_Growth_Rate,Slowest_Growth_Year,Slowest_Growth_Rate
+10-Year,2040,2050,2040,2050,11,11,Complete,Forecast,Forecast,1595991026,1630192583,34201557,2.143,0.2123,3420156,2040,0.376,2050,0.0752
+20-Year,2030,2050,2030,2050,21,21,Complete,Forecast,Forecast,1517181986,1630192583,113010597,7.4487,0.3599,5650530,2030,0.6701,2050,0.0752
+25-Year,2025,2050,2025,2050,26,26,Complete,Mixed,"Estimated, Forecast",1462982757,1630192583,167209826,11.4294,0.4338,6688393,2025,0.8303,2050,0.0752
+50-Year,2000,2050,2000,2050,51,51,Complete,Mixed,"Estimated, Forecast, Historical",1057922733,1630192583,572269850,54.0937,0.8685,11445397,2000,1.8972,2050,0.0752
+100-Year,1950,2050,1960,2050,101,91,Partial - available data used,Mixed,"Estimated, Forecast, Historical",435990338,1630192583,1194202245,273.9057,1.4762,13268914,1961,2.4254,2050,0.0752
