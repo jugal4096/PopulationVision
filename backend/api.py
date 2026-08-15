@@ -78,17 +78,11 @@ from fastapi.middleware.cors import CORSMiddleware
 #
 # ================================================================
 
-try:
-    from year_intelligence import build_year_intelligence
+# ================================================================
+# YEAR INTELLIGENCE SERVICE
+# ================================================================
 
-except ImportError as exc:
-
-    raise ImportError(
-        "Unable to import build_year_intelligence from "
-        "backend/year_intelligence.py. "
-        "Make sure year_intelligence.py exists and exposes "
-        "build_year_intelligence(year)."
-    ) from exc
+from .year_intelligence import build_year_intelligence
 
 
 # ================================================================
